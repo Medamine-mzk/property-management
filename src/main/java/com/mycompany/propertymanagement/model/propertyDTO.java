@@ -9,8 +9,8 @@ public class propertyDTO {
     private Long id;
     private String title;
     private String description;
-    private String ownerName;
-    private String ownerEmail;
+//    private String ownerName;
+//    private String ownerEmail;
     private Double price;
     private String address;
 
@@ -19,8 +19,8 @@ public class propertyDTO {
         return "propertyDTO{" +
                 "title='" + title + '\'' +
                 ", description='" + description + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                ", ownerEmail='" + ownerEmail + '\'' +
+//                ", ownerName='" + ownerName + '\'' +
+//                ", ownerEmail='" + ownerEmail + '\'' +
                 ", price=" + price +
                 ", address='" + address + '\'' +
                 '}';
